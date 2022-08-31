@@ -2232,6 +2232,7 @@ a {
 .cid-tg27YfLtBM {
   padding-top: 8rem;
   padding-bottom: 8rem;
+  background-color: #ffffff;
 }
 .cid-tg27YfLtBM .item {
   padding-bottom: 2rem;
@@ -2485,6 +2486,77 @@ a {
 .cid-tg27YfLtBM H3 {
   color: #cb8aff;
 }
+.cid-tg7spTEWvh {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.cid-tg7spTEWvh .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tg7spTEWvh .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-image: url("../../../assets/images/story-book.png");
+}
+@media (max-width: 991px) {
+  .cid-tg7spTEWvh .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-tg7spTEWvh .row {
+  flex-direction: row-reverse;
+}
+.cid-tg7spTEWvh img {
+  width: 100%;
+}
+.cid-tg7lciqbh8 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #ffffff;
+}
+.cid-tg7lciqbh8 .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tg7lciqbh8 .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tg7lciqbh8 .card-box {
+  z-index: 10;
+  position: relative;
+}
+@media (min-width: 1500px) {
+  .cid-tg7lciqbh8 .container {
+    max-width: 1400px;
+  }
+}
+.cid-tg7lciqbh8 .card {
+  margin: auto;
+}
+.cid-tg7lciqbh8 .mbr-iconfont {
+  display: block;
+  font-size: 5rem;
+  color: #cb8aff;
+  margin-bottom: 2rem;
+}
+.cid-tg7lciqbh8 .card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cid-tg7lciqbh8 .row {
+  justify-content: center;
+}
 .cid-tg3K9DywpQ {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -2517,6 +2589,39 @@ a {
 }
 .cid-tg3K9DywpQ .mbr-section-title {
   text-align: left;
+}
+.cid-tg7ojpf1c1 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+.cid-tg7ojpf1c1 .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tg7ojpf1c1 .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+@media (max-width: 991px) {
+  .cid-tg7ojpf1c1 .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-tg7ojpf1c1 .row {
+  flex-direction: row-reverse;
+}
+.cid-tg7ojpf1c1 img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .cid-tg7ojpf1c1 .text-wrapper {
+    padding: 2rem;
+  }
 }
 .cid-tg2hhXtiJ9 {
   padding-top: 30px;
