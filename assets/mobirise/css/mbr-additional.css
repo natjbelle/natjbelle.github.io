@@ -2486,14 +2486,14 @@ a {
 .cid-tg27YfLtBM H3 {
   color: #cb8aff;
 }
-.cid-tg7spTEWvh {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+.cid-tg7voZ5lrS {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
-.cid-tg7spTEWvh .mbr-fallback-image.disabled {
+.cid-tg7voZ5lrS .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-tg7spTEWvh .mbr-fallback-image {
+.cid-tg7voZ5lrS .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -2501,18 +2501,29 @@ a {
   height: 100%;
   position: absolute;
   top: 0;
-  background-image: url("../../../assets/images/story-book.png");
+  background-image: url("../../../assets/images/background13.jpg");
 }
-@media (max-width: 991px) {
-  .cid-tg7spTEWvh .image-wrapper {
-    margin-bottom: 1rem;
-  }
+.cid-tg7voZ5lrS .row {
+  align-items: stretch;
+  justify-content: center;
 }
-.cid-tg7spTEWvh .row {
-  flex-direction: row-reverse;
+.cid-tg7voZ5lrS .img-item {
+  position: relative;
 }
-.cid-tg7spTEWvh img {
+.cid-tg7voZ5lrS .img-item img {
   width: 100%;
+  object-fit: cover;
+}
+.cid-tg7voZ5lrS .img-item .img-description {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+  padding: .5rem 1rem .5rem;
+  word-break: break-word;
+}
+.cid-tg7voZ5lrS .img-item .img-description p {
+  margin-bottom: 0;
 }
 .cid-tg7lciqbh8 {
   padding-top: 4rem;
