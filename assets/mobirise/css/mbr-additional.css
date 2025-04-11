@@ -5094,6 +5094,29 @@ a {
 .cid-ux3HJU0xu3 H5 {
   color: #cb8aff;
 }
+.cid-uI5cEu00XB {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #fcf8ff;
+}
+.cid-uI5cEu00XB .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-uI5cEu00XB .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-uI5cEu00XB .mbr-section-title {
+  color: #cb8aff;
+}
+.cid-uI5cEu00XB .mbr-section-subtitle {
+  color: #8e8d8a;
+}
 .cid-uI4UAlInD7 {
   padding-top: 6rem;
   padding-bottom: 0rem;
