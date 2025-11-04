@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Coding Projects</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+            color: white;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .project-card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-decoration: none;
+            color: #333;
+            display: block;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+
+        .project-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #667eea;
+        }
+
+        .project-description {
+            font-size: 0.95em;
+            line-height: 1.6;
+            color: #666;
+        }
+
+        .project-tag {
+            display: inline-block;
+            background: #f0f0f0;
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 0.85em;
+            margin-top: 10px;
+            color: #764ba2;
+        }
+
+        .exercise-tag {
+            background: #e8f5e9;
+            color: #2e7d32;
+        }
+
+        .project-tag {
+            background: #e3f2fd;
+            color: #1565c0;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+            
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>✨ Creative Coding Projects</h1>
+            <p class="subtitle">Interactive JavaScript & p5.js Explorations</p>
+        </header>
+
+        <div class="projects-grid">
+            <!-- Exercises -->
+            <a href="exercise-1-basic-drawing-and-program-syntax/index.html" class="project-card">
+                <div class="project-title">Exercise 1: Basic Drawing</div>
+                <div class="project-description">
+                    Introduction to p5.js fundamentals: shapes, colors, and basic program syntax.
+                </div>
+                <span class="project-tag exercise-tag">Exercise</span>
+            </a>
+
+            <a href="exercise-2-transformations-/index.html" class="project-card">
+                <div class="project-title">Exercise 2: Transformations</div>
+                <div class="project-description">
+                    Exploring translate, rotate, and scale transformations in p5.js.
+                </div>
+                <span class="project-tag exercise-tag">Exercise</span>
+            </a>
+
+            <a href="exercise-3-conditionalz/index.html" class="project-card">
+                <div class="project-title">Exercise 3: Conditionals</div>
+                <div class="project-description">
+                    Working with if/else statements and conditional logic for interactive sketches.
+                </div>
+                <span class="project-tag exercise-tag">Exercise</span>
+            </a>
+
+            <a href="loops-exercise-4/index.html" class="project-card">
+                <div class="project-title">Exercise 4: Loops</div>
+                <div class="project-description">
+                    Creating patterns and repeated elements using for and while loops.
+                </div>
+                <span class="project-tag exercise-tag">Exercise</span>
+            </a>
+
+            <a href="exercise-six-exercise-/index.html" class="project-card">
+                <div class="project-title">Exercise 6</div>
+                <div class="project-description">
+                    Advanced p5.js techniques and creative exploration.
+                </div>
+                <span class="project-tag exercise-tag">Exercise</span>
+            </a>
+
+            <a href="seven-ex/index.html" class="project-card">
+                <div class="project-title">Exercise 7</div>
+                <div class="project-description">
+                    Continued exploration of creative coding concepts.
+                </div>
+                <span class="project-tag exercise-tag">Exercise</span>
+            </a>
+
+            <!-- Projects -->
+            <a href="solar-system-drawing/index.html" class="project-card">
+                <div class="project-title">🪐 Solar System Drawing</div>
+                <div class="project-description">
+                    An artistic representation of our solar system with planets and orbits.
+                </div>
+                <span class="project-tag">Project</span>
+            </a>
+
+            <a href="solar-system-adam/index.html" class="project-card">
+                <div class="project-title">🌌 Solar System (Adam's Version)</div>
+                <div class="project-description">
+                    An animated solar system with interactive elements and celestial bodies.
+                </div>
+                <span class="project-tag">Project</span>
+            </a>
+
+            <a href="dvd-tv/index.html" class="project-card">
+                <div class="project-title">📺 DVD TV Screensaver</div>
+                <div class="project-description">
+                    A nostalgic recreation of the classic DVD logo bouncing screensaver.
+                </div>
+                <span class="project-tag">Project</span>
+            </a>
+
+            <a href="exquisite-corpse-f24-group1/index.html" class="project-card">
+                <div class="project-title">🎨 Exquisite Corpse</div>
+                <div class="project-description">
+                    A collaborative Surrealist-inspired artwork where each body part is coded separately.
+                </div>
+                <span class="project-tag">Collaboration</span>
+            </a>
+
+            <!-- Creative Sketches -->
+            <a href="able-field-sandpaper/index.html" class="project-card">
+                <div class="project-title">Able Field Sandpaper</div>
+                <div class="project-description">
+                    An experimental generative art piece exploring texture and pattern.
+                </div>
+                <span class="project-tag">Sketch</span>
+            </a>
+
+            <a href="candy-veiled-windflower/index.html" class="project-card">
+                <div class="project-title">🌸 Candy Veiled Windflower</div>
+                <div class="project-description">
+                    A colorful, organic sketch inspired by floral forms and natural movement.
+                </div>
+                <span class="project-tag">Sketch</span>
+            </a>
+
+            <a href="cosmic-subdued-apparatus/index.html" class="project-card">
+                <div class="project-title">🌠 Cosmic Subdued Apparatus</div>
+                <div class="project-description">
+                    A space-themed interactive visualization with cosmic elements.
+                </div>
+                <span class="project-tag">Sketch</span>
+            </a>
+
+            <a href="elite-daisy-nautilus/index.html" class="project-card">
+                <div class="project-title">🐚 Elite Daisy Nautilus</div>
+                <div class="project-description">
+                    Geometric patterns inspired by nautilus shells and natural spirals.
+                </div>
+                <span class="project-tag">Sketch</span>
+            </a>
+
+            <a href="mountainous-gabby-lamprey/index.html" class="project-card">
+                <div class="project-title">⛰️ Mountainous Gabby Lamprey</div>
+                <div class="project-description">
+                    A landscape-inspired generative sketch with dynamic elements.
+                </div>
+                <span class="project-tag">Sketch</span>
+            </a>
+
+            <a href="quick-freezing-chocolate/index.html" class="project-card">
+                <div class="project-title">🍫 Quick Freezing Chocolate</div>
+                <div class="project-description">
+                    An abstract visualization exploring motion and transformation.
+                </div>
+                <span class="project-tag">Sketch</span>
+            </a>
+
+            <a href="quiz-code-testing/index.html" class="project-card">
+                <div class="project-title">📝 Quiz Code Testing</div>
+                <div class="project-description">
+                    Practice and testing ground for creative coding concepts.
+                </div>
+                <span class="project-tag">Sketch</span>
+            </a>
+
+            <a href="rose-shard-joke/index.html" class="project-card">
+                <div class="project-title">🌹 Rose Shard Joke</div>
+                <div class="project-description">
+                    A playful sketch combining geometric shapes with organic forms.
+                </div>
+                <span class="project-tag">Sketch</span>
+            </a>
+
+            <a href="thoracic-past-look/index.html" class="project-card">
+                <div class="project-title">Thoracic Past Look</div>
+                <div class="project-description">
+                    An experimental piece exploring structure and organic patterns.
+                </div>
+                <span class="project-tag">Sketch</span>
+            </a>
+
+            <a href="wary-heavenly-bar/index.html" class="project-card">
+                <div class="project-title">✨ Wary Heavenly Bar</div>
+                <div class="project-description">
+                    A celestial-themed interactive visualization with dynamic elements.
+                </div>
+                <span class="project-tag">Sketch</span>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
