@@ -5751,6 +5751,41 @@ a {
   font-size: 2rem;
   width: 1.6rem;
 }
+.cid-vqI96PN0VP {
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-vqI96PN0VP .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-vqI96PN0VP .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-vqI96PN0VP ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 2.5rem;
+}
+.cid-vqI96PN0VP li {
+  position: relative;
+  margin-bottom: 1rem;
+}
+.cid-vqI96PN0VP ul li::before {
+  position: absolute;
+  left: -1.6rem;
+  content: "\2022";
+  color: #f0d4f8;
+  font-weight: bold;
+  font-size: 2rem;
+  width: 1.6rem;
+}
 .cid-vqAF0MzlnV {
   padding-top: 2rem;
   padding-bottom: 0rem;
