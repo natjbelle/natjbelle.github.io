@@ -35,11 +35,11 @@ body {
 }
 .display-7 {
   font-family: 'Jost', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.17rem;
   line-height: 1.5;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.5rem;
+  font-size: 1.4625rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -73,9 +73,9 @@ body {
     line-height: calc( 1.4 * (1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
-    font-size: 0.96rem;
-    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.936rem;
+    font-size: calc( 1.0594999999999999rem + (1.17 - 1.0594999999999999) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.0594999999999999rem + (1.17 - 1.0594999999999999) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -6602,15 +6602,15 @@ a {
 .cid-vqAHFTAbST .mbr-section-subtitle {
   color: #8e8d8a;
 }
-.cid-vqAQeSoqJ1 {
+.cid-vqHVCVwjpL {
   padding-top: 6rem;
   padding-bottom: 0rem;
   background-color: #fcf8ff;
 }
-.cid-vqAQeSoqJ1 .mbr-fallback-image.disabled {
+.cid-vqHVCVwjpL .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-vqAQeSoqJ1 .mbr-fallback-image {
+.cid-vqHVCVwjpL .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -6619,12 +6619,37 @@ a {
   position: absolute;
   top: 0;
 }
-.cid-vqAQeSoqJ1 .video-wrapper iframe {
+.cid-vqHVCVwjpL .video-wrapper iframe {
   width: 100%;
 }
-.cid-vqAQeSoqJ1 .mbr-section-title,
-.cid-vqAQeSoqJ1 .mbr-section-subtitle,
-.cid-vqAQeSoqJ1 .mbr-text {
+.cid-vqHVCVwjpL .mbr-section-title,
+.cid-vqHVCVwjpL .mbr-section-subtitle,
+.cid-vqHVCVwjpL .mbr-text {
+  text-align: center;
+}
+.cid-vqHRKIigTw {
+  padding-top: 6rem;
+  padding-bottom: 0rem;
+  background-color: #fcf8ff;
+}
+.cid-vqHRKIigTw .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-vqHRKIigTw .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-vqHRKIigTw .video-wrapper iframe {
+  width: 100%;
+}
+.cid-vqHRKIigTw .mbr-section-title,
+.cid-vqHRKIigTw .mbr-section-subtitle,
+.cid-vqHRKIigTw .mbr-text {
   text-align: center;
 }
 .cid-vqAs4J29Vd {
