@@ -6,7 +6,7 @@
       "name": "mobirise5",
       "title": "Mobirise 5",
       "styling": {
-        "primaryColor": "#f0d4f8",
+        "primaryColor": "#cb8aff",
         "secondaryColor": "#ff6666",
         "successColor": "#40b0bf",
         "infoColor": "#47b5ed",
@@ -52,7 +52,7 @@
         "url": "https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 188,
+    "uniqCompNum": 189,
     "versionPublish": "6.1.12",
     "imageResize": false,
     "screenshot": "screenshot.png",
@@ -7437,6 +7437,64 @@
           "_anchor": "content14-4q",
           "_isUserblock": true,
           "_cid": "vqxl9mIFD7",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            "ul": {
+              "list-style": "none",
+              "margin": "0",
+              "padding-left": "2.5rem"
+            },
+            "li": {
+              "position": "relative",
+              "margin-bottom": "1rem"
+            },
+            "ul li::before": {
+              "position": "absolute",
+              "left": "-1.6rem",
+              "content": "\"\\2022\"",
+              "color": "@primaryColor",
+              "font-weight": "bold",
+              "font-size": "2rem",
+              "width": "1.6rem"
+            }
+          },
+          "_name": "content14",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" group=\"Content\" class=\"content14\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    \n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>Robotics Project Documentation</b></h3>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li><span style=\"font-size: 19.2px;\">Technical Writing · Process Documentation · Physical Computing</span></li><li><span style=\"font-size: 19.2px;\">A two-part collection of long-form project articles documenting the research, design, fabrication, testing and development of interactive robots created for a Human–Robot Interaction course.</span></li><li><b style=\"font-size: 19.2px;\">Kuromi Robot for the Bot Olympics</b></li><li><span style=\"font-size: 19.2px;\">A detailed project retrospective following the development of a Kuromi-inspired robot created for a series of movement, obstacle-course and table-edge challenges. The article documents the robot’s visual concept, physical construction, Arduino programming, sensor testing, web-based controls, technical challenges and final performance.</span></li><li><span style=\"font-size: 19.2px;\"><b>My project contribution:</b>&nbsp;Visual concept development, physical design, foam-board construction, felt fabrication and assembly of the robot exterior.</span></li><li><span style=\"font-size: 19.2px;\"><a href=\"https://medium.com/@natjannabelle/project-1-kuromi-robot-for-the-bot-olympics-f95cc21e7d7c?sharedUserId=natjannabelle\" class=\"text-primary\" target=\"_blank\"><b>Read the Kuromi Robot Article</b></a></span></li><li><span style=\"font-size: 19.2px;\"><b>Moody Melody: The Open Robot Project</b></span></li><li><span style=\"font-size: 19.2px;\">A long-form case study documenting the development of Moody Melody, a My Melody-inspired emotional robot companion. The robot responds to a user’s proximity through changing LED animations, musical tones, heartbeat-like sounds and weather-responsive behaviours.</span></li><li><span style=\"font-size: 19.2px;\"><b>My project contribution:</b> Physical fabrication, development of the My Melody-inspired exterior and assembly of the character body.</span></li><li><span style=\"font-size: 19.2px;\"><a href=\"https://medium.com/@natjannabelle/assignment-2-the-open-robot-project-9a04bcaad4df?sharedUserId=natjannabelle\" class=\"text-primary\" target=\"_blank\"><b>Read the Moody Melody Article</b></a></span></li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content14-58",
+          "_isUserblock": true,
+          "_cid": "vqTXivaySS",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
